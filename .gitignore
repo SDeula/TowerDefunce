@@ -1,0 +1,7 @@
+/.vs
+/Library
+/UnityPackageManager
+/*.csproj
+/*.userprefs
+/.git
+/*.db

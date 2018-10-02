@@ -1,11 +1,17 @@
 fileFormatVersion: 2
 guid: 879bd72cfd91fad4a9d6cc0bc78c5ee0
-timeCreated: 1524215710
+timeCreated: 1537262147
 licenseType: Free
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - standardTurretPrefab: {fileID: 1719048079702256, guid: 3c7598cf6db65834bb26b15178afbc73,
+      type: 2}
+  - anotherTurretPrefab: {fileID: 1656677134013676, guid: 3989c8e73f4df8541869a267abc15308,
+      type: 2}
+  - turretToBuild: {fileID: 1002320961738660, guid: 3bf20047b983cc245ac003e1d5d94f60,
+      type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

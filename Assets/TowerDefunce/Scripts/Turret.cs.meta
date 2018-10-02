@@ -1,11 +1,15 @@
 fileFormatVersion: 2
 guid: cefff4b8dafe8a64783f87847507fd6c
-timeCreated: 1521717628
+timeCreated: 1537262161
 licenseType: Free
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - HeadPivot: {instanceID: 0}
+  - bulletPrefab: {fileID: 1959106104039336, guid: 4138e69060634e64b9bad698cf5b27be,
+      type: 2}
+  - firePoint: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

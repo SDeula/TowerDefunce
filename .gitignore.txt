@@ -1,7 +1,0 @@
-/Library
-/UnityPackageManager
-/*.csproj
-/*.userprefs
-/.git
-/*.db
-/Temp

@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/TowerDefunce/Scenes/Levels/Level 1/Map1.unity
+  isLoaded: 1
+  isActive: 1

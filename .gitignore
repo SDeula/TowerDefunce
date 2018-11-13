@@ -1,8 +1,15 @@
 /Library
 /UnityPackageManager
+/Logs
+/obj/Debug
+/Packages
+/ProjectSettings
+/*.vs
 /*.csproj
 /*.userprefs
+/Debug
 /.git
 /*.lock
 /*.db
+/*.sln
 /Temp

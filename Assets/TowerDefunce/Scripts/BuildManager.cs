@@ -7,12 +7,12 @@ public class BuildManager : MonoBehaviour {
 
     void Awake ()
     {
-        if (instance != null)
-        {
-            Debug.LogError("more than one BuildManager in scene!");
-            return;
-        }
         instance = this;
+
+        if (instance == null)
+        {
+            Awake();
+        }
     }
  
 

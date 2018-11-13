@@ -1,16 +1,38 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Pause : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
+    public static bool Gamepaused = false;
+
+    public GameObject Pausemenu;
+
 	void Update () {
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if(Gamepaused)
+            {
+                Resume();
+            }
+            else
+            {
+                Pausegame();
+            }
+        }
 		
 	}
+
+   public void Resume ()
+    {
+        Time.timeScale = 1f;
+        Gamepaused = false;
+        Pausemenu.SetActive(false);
+    }
+
+    void Pausegame ()
+    {
+        Time.timeScale = 0f;
+        Gamepaused = true;
+        Pausemenu.SetActive(true);
+    }
 }

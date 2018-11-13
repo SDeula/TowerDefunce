@@ -3,5 +3,6 @@
 /*.csproj
 /*.userprefs
 /.git
+/*.lock
 /*.db
 /Temp
